@@ -27,7 +27,6 @@ const Main = () => {
                 <div>
                     <h1>We build &amp; design <br/> web applications.</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus congue dignissim. Vestibulum et ex nisl. Vestibulum eu luctus nisi. Fusce sit amet vehicula nisl. </p>
-                    {/* <Link to="/contact">Get in touch</Link> */}
                 </div>
           
             </header>

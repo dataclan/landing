@@ -27,7 +27,7 @@ const Contact = () => {
 
     return(
         <React.Fragment>
-           <button className="back" onClick={goBack}> &larr; Back</button>
+           {/* <button className="back" onClick={goBack}> &larr; Back</button> */}
 
             <form className="contact" onSubmit={sendEmail}>
                 <h2>Send me a message so we can start a new project</h2>

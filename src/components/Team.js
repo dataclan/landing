@@ -27,17 +27,35 @@ const Team = () => {
 
     return(
         <React.Fragment>
-           <button className="back" onClick={goBack}> &larr; Back</button>
+           {/* <button className="back" onClick={goBack}> &larr; Back</button> */}
 
-           <header>
+           
                 <section className="services">
-                     <h2>Why we should work together?</h2>
-
+                     <h2>Meet the Team</h2>
+                     <table border="1">
+                            <tr>
+                                <td>6</td>
+                                <td>6</td>
+                                <td>6</td>
+                                <td>6</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>7</td>
+                                <td>7</td>
+                                <td>7</td>
+                            </tr>
+                        </table>
+                        <br/>
                      <div className="service-container">
+                        
+
                          <div className="services-card service-one"></div>
+                         <div>yyy</div>
                          <div className="service-description">
 
                             <h3>SEO Friendly Apps.</h3>
+                            <br></br>
                             <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt massa sem. Vestibulum quis augue ac orci bibendum pellentesque ut nec dolor. Quisque metus ipsum, pulvinar quis ipsum quis, consequat cursus leo. Suspendisse fermentum, nisl et ultricies blandit, mauris metus accumsan mauris, sit amet vulputate elit nunc id libero. Vivamus porta lacus libero, et ullamcorper est volutpat ac. Maecenas eros urna, interdum in lectus nec, tristique semper mauris. Duis finibus nunc sed nulla bibendum, ut ornare tellus finibus. Donec id magna risus.</div>
 
                          </div>
@@ -67,7 +85,7 @@ const Team = () => {
                 </section>
 
                 
-            </header>
+            
         </React.Fragment>
     )
 
