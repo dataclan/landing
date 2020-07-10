@@ -6,7 +6,7 @@ html {
 
 body {
   margin: 0;
-  padding: 0px;
+  padding: 10px;
   font-family: Lato, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -34,7 +34,7 @@ nav {
   display: flex;
   align-items: center;
   width: 100%;
-  padding-top: 10px;
+  padding-top: 20px;
   margin: 0 auto;
   justify-content: space-between;
   color: #111;
@@ -64,6 +64,7 @@ nav ul:first-of-type li:first-of-type{
 
 
 header {
+  /* padding-top: 0px; */
   position: relative;
 }
 
@@ -114,7 +115,7 @@ header div a:hover, .newsletter input[type="submit"]:hover {
 }
 
 main {
-  padding-top: 100px;
+  padding-top: 200px;
 }
 
 h2 {
@@ -131,7 +132,7 @@ h3 {
 
 
 .services {
-  margin-top: 300px;
+  margin-top: 50px;
 }
 
 .service-container {
@@ -244,11 +245,11 @@ h3 {
   background: none;
   padding: 10px;
   border: none;
-  border-bottom: 3px solid blue;
+  border-bottom:  #111;
   font-size: 14px;
-  margin-top: 50px;
+  margin-top: -10px;
   cursor: pointer;
-  color: blue;
+  color:#111
 }
 
 @media screen and (max-width: 1600px){
@@ -267,8 +268,9 @@ h3 {
   }
 
   header div {
-    padding-top: 100px;   
+    padding-top: 80px;   
   }
+  
   header div h1 {
     font-size: 55px;
   }
@@ -280,12 +282,16 @@ h3 {
 }
 
 @media screen and (max-width: 1150px){
+  header div h1 {
+    font-size: 55px;
+  }
+
   header img {
     width: 900px;
     right: -50%;
     top: 320px;
   }
- 
+  
   
   header div h1 {
     font-size: 55px;
